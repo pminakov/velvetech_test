@@ -1,0 +1,9 @@
+*/.idea/*
+*/node_modules/*
+*/build/*
+*/dist/*
+*.bak
+*.log
+*.tmp
+*.pid
+!.gitkeep

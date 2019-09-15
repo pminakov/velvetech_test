@@ -1,0 +1,26 @@
+{
+  "name": "catalog.api",
+  "version": "1.0.0",
+  "description": "catalog api service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node t1.js",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Pavel Minakov <p.a.minakov@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.6.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "pg": "^7.12.1",
+    "sequelize": "^5.18.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
