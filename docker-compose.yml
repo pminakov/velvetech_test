@@ -14,8 +14,8 @@ services:
       - admin
     networks:
       - local
-#    volumes:
-#      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
   api:
     build:
       context: ./api
